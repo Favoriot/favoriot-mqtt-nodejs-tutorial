@@ -16,14 +16,14 @@ var client = mqtt.connect(url, options);
 // or var client = mqtt.connect({ port: 1883, host: '192.168.1.100', keepalive: 10000});
 
 var data = {
-			  "device_developer_id": "deviceDefault@favoriot", // replace with your device developer id
-			  "data": {"temperature":"30", "humidity":"40"}
+	   "device_developer_id": "deviceDefault@favoriot", // replace with your device developer id
+	   "data": {"temperature":"30", "humidity":"40"}
 		   };
 
 client.on('connect', function () {
 
 client.subscribe(api+"/v2/streams/status");  // listen stream response
-client.publish(api+'/v2/streams', JSON.stringify(data));
+client.publish(api+'/v2/streams', JSON.stringify(data)); // publish to favoriot iot platform
   
 })
  
