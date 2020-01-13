@@ -15,7 +15,7 @@ mqtt publish : yourapikey + '/v2/streams'
 mqtt subscribe : yourapikey + '/v2/streams/status'
   
 # In this code, you need to change TWO things:
- *    1. Your API key (can be obtained from the account setting in favoriot platform) or use access token (obtained from device show information)
+ *    1. Your 'API key' (can be obtained from the account setting in favoriot platform) or use 'Access Token' (obtained from device show information)
  *    2. Your device developer ID (can be obtained from devices in favoriot platform)
  
  
