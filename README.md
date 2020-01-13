@@ -12,6 +12,7 @@ tutorial to send data stream using mqtt protocol
   
 # Topic:
 mqtt publish : yourapikey + '/v2/streams'
+
 mqtt subscribe : yourapikey + '/v2/streams/status'
   
 # In this code, you need to change TWO things:
