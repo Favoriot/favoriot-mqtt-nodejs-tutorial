@@ -1,5 +1,5 @@
 var mqtt = require('mqtt')
-var api = ''; // replace with your apikey 
+var api = ''; // replace with your apikey or accesstoken 
 var url = 'mqtt://mqtt.favoriot.com' ;
 
 
