@@ -20,5 +20,8 @@ mqtt subscribe : yourapikey + '/v2/streams/status'
  *    2. Your device developer ID (can be obtained from devices in favoriot platform)
  
  # how to get access token
- https://platform.favoriot.com/tutorial/v2/#device-access-token
+ **link: https://platform.favoriot.com/tutorial/v2/#device-access-token**
+ 
+ # Issues or feedback
+ **link: https://www.favoriot.com/forum**
  
